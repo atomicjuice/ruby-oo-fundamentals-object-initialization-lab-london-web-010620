@@ -4,7 +4,8 @@ class Dog
     @name = name
     @breed = breed
     def check
-      if breed == nil |@breed = "Mutt"|
+      if breed == nil 
+        return |@breed = "Mutt"|
     end
   end
 
